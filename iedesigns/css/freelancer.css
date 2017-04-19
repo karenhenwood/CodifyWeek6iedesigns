@@ -91,7 +91,6 @@ header .intro-text .skills {
 .container {
     padding-right: 0px;
     padding-left: 0px;
-
   }
 
 @media (min-width: 768px) {
@@ -523,4 +522,14 @@ div#maincontent {
 }
 #custom{
   text-align: center;
+}
+
+/*Overriding bootstrap -15px margins. */
+/*They made the text ride too far to the left*/
+/*and the collapsed navbar button and brand on the very edge of the screen*/
+.container>.navbar-collapse, 
+.container>.navbar-header, 
+.row {
+    margin-right: 0px;
+    margin-left: 0px;
 }
